@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Mapa Argentino
+// @name         Map
 // @namespace    http://tampermonkey.net/
 // @version 1.6
-// @description  MapaArgentino.io
+// @description  IDFpixel/map
 // @author       ~~~
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
 // @homepage     ~~~
-// @updateURL    https://raw.githubusercontent.com/Pinkfloydd/ArgentinaMap_PixelZone/blob/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/Pinkfloydd/ArgentinaMap_PixelZone/blob/master/minimap.user.js
+// @updateURL    https://raw.githubusercontent.com/IDFpixel/map/blob/master/minimap.user.js
+// @downloadURL  https://raw.githubusercontent.com/IDFpixel/map/blob/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Pinkfloydd/ArgentinaMap_PixelZone/master/';
+window.baseTepmlateUrl = 'https://raw.githubusercontent.com/IDFpixel/map/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
