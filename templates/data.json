@@ -1,9 +1,9 @@
 {
- "Agentina": {
-  "name": "Argentina.png",
-  "x": -35,
-  "y": 443,
-  "width": 347,
-  "height": 246
+ "israel": {
+  "name": "israel.png",
+  "x": -4096,
+  "y": -4096,
+  "width": 1500,
+  "height": 792
 }
 }
